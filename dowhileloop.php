@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning - Do y do while</title>
-</head>
-<body>
-    <h1> Bucle while</h1>
+<?php 
+		$title = 'Bucles while y do while';
+		include 'includes-snippet/header.php' 
+	?>
     <?php
         $numero=0;
         //While es un bucle de pre-condición, si "$numero" no existiera, no se ejecutaría el bucle.
@@ -18,7 +12,7 @@
         echo 'Fin del loop!';
     ?>
 
-    <h1> Bucle do while</h1>
+    <h3> Bucle do while</h3>
 
     <?php
         //bucle post-condición. Lo utilizo cuando quiero que algo se haga al menos una vez antes de ejecutar el bucle
@@ -27,5 +21,4 @@
             echo 'Bucle do while';
         } while($numero<10);
     ?>
-</body>
-</html>
+<?php require 'includes-snippet/footer.php' ?>

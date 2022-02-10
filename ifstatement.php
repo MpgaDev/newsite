@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning page - If statements</title>
-</head>
-<body>
+<?php 
+		$title = 'Condicional if';
+		include 'includes-snippet/header.php' 
+	?>
     <?php
 
         //Una declaración If que va a llevar a cabo una acción teniendo en cuenta la variable
-        echo '<h2> If statement </h2>';
         $nota= 70;
         // comparaciones: ==, > , <, >= , <= , ===
 
@@ -21,5 +15,4 @@
         }
 
     ?>
-</body>
-</html>
+<?php require 'includes-snippet/footer.php' ?>

@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning - Manipulacion de Strings
-    </title>
-</head>
-<body>
-    <h1> Manipulacion de Strings </h1>
+<?php 
+		$title = 'Manipulacion de Strings';
+		include 'includes-snippet/header.php' 
+	?>
     <?php
         $frase1= "lights will guide you home";
         $frase2= "and ignite your bones";
@@ -48,5 +41,4 @@
         echo "Reemplazar un String con otro: " . str_replace("guide","guiiiiidee",$frase1) . '<br/>';
 
     ?>
-</body>
-</html>
+<?php require 'includes-snippet/footer.php' ?>

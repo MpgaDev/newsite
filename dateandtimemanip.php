@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning - Manipulacion de fecha y tiempo</title>
-</head>
-<body>
-    <h1> Manipulacion de fecha y tiempo </h1>
+<?php 
+		$title = 'Manipulacion de fecha y tiempo';
+		include 'includes-snippet/header.php' 
+	?>
     <?php
         $datenow = getdate();
         echo "La fecha de hoy es:";
@@ -25,5 +19,4 @@
     
     ?>
     
-</body>
-</html>
+    <?php require 'includes-snippet/footer.php' ?>
