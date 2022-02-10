@@ -33,11 +33,16 @@
 
 	<h2> Ejemplos de aprendizaje </h2>
 	<ul>
-		<li><a href="array.php">Simple array and printouts</a></li>
-		<li><a href="forloops.php">Simple for loop</a></li>
-		<li><a href="dowhileloop.php">Simple while and do while</a></li>
-		<li><a href="ifstatement.php">Simple if statement</a></li>
-		<li><a href="switchstatement.php">Simple switch statement</a></li>
+		<li><a href="array.php">Arrays</a></li>
+		<li><a href="forloops.php">Bucle for</a></li>
+		<li><a href="dowhileloop.php">Bucles while y do while</a></li>
+		<li><a href="ifstatement.php">Declaracion if</a></li>
+		<li><a href="switchstatement.php">Declaracion switch</a></li>
+		<li><a href="stringmanip.php">Manipulacion de cadenas</a></li>
+		<li><a href="dateandtimemanip.php">Manipulacion de fecha y tiempo</a></li>
+		<li><a href="functions.php">Funciones del usuario</a></li>
+
+
 
 	</ul>
 
